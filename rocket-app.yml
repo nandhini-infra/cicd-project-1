@@ -13,8 +13,8 @@ spec:
         app: devops-project
     spec:
       containers:
-      - name: helm-rocket-app
-        image: dockerhub1010/helm-rockets:v1.1
+      - name: nandhini-helm-rocket-app
+        image: nandhini1996/helm-rockets:v1.1
         ports:
         - containerPort: 80
 ---
